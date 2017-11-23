@@ -9,8 +9,8 @@ namespace NotificationChannels\SMSC\Clients\Http;
 use GuzzleHttp\Client as GuzzleHttpClient;
 use NotificationChannels\SMSC\SMSCMessageInterface;
 use NotificationChannels\SMSC\Clients\SMSCClientInterface;
-use NotificationChannels\SMSC\Clients\SMSCApiResponseInterface;
 use NotificationChannels\SMSC\Exceptions\CouldNotBootClient;
+use NotificationChannels\SMSC\Clients\SMSCApiResponseInterface;
 use NotificationChannels\SMSC\Exceptions\CouldNotSendNotification;
 
 /**
@@ -95,7 +95,6 @@ final class SMSCClient implements SMSCClientInterface
      */
     public function sendRequest()
     {
-
         $guzzleResponse = $this->httpClient->request('GET', self::$endPoint, [
             'query' => $this->requestParams,
         ]);
@@ -110,6 +109,7 @@ final class SMSCClient implements SMSCClientInterface
             $message = $response->errorMessage().'['.$response->errorCode().']';
             throw CouldNotSendNotification::apiFailed($message);
         }
+
         return $response;
     }
 
