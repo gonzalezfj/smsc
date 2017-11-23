@@ -6,8 +6,6 @@
 
 namespace NotificationChannels\SMSC;
 
-use Carbon\Carbon;
-
 /**
  * Class SMSCMessage.
  */
@@ -48,7 +46,7 @@ final class SMSCMessage implements SMSCMessageInterface
     {
         return array_filter([
             'num' => $this->number(),
-            'msj' => $this->content()
+            'msj' => $this->content(),
         ]);
     }
 
@@ -81,6 +79,7 @@ final class SMSCMessage implements SMSCMessageInterface
     {
         return $this->number;
     }
+
     /**
      * Property getter.
      *
