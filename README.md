@@ -1,6 +1,6 @@
 # SMSC Notification Channel For Laravel 5.3
 
-[![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg?style=for-the-badge)](https://packagist.org/packages/gonzalezfj/smsc)
+[![Packagist Pre Release](https://img.shields.io/packagist/vpre/gonzalezfj/smsc.svg)](https://packagist.org/packages/gonzalezfj/smsc)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/gonzalezfj/smsc/master.svg?style=flat-square)](https://travis-ci.org/gonzalezfj/smsc)
 [![StyleCI](https://styleci.io/repos/111740337/shield?branch=master)](https://styleci.io/repos/111740337)
