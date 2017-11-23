@@ -1,9 +1,9 @@
 # SMSC Notification Channel For Laravel 5.3
-https://packagist.org/packages/gonzalezfj/smsc
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/gonzalezfj/smsc.svg?style=flat-square)](https://packagist.org/packages/gonzalezfj/smsc)
+
+[![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg?style=for-the-badge)](https://packagist.org/packages/gonzalezfj/smsc)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/gonzalezfj/smsc/master.svg?style=flat-square)](https://travis-ci.org/gonzalezfj/smsc)
-[![StyleCI](https://styleci.io/repos/74304440/shield?branch=master)](https://styleci.io/repos/74304440)
+[![StyleCI](https://styleci.io/repos/111740337/shield?branch=master)](https://styleci.io/repos/111740337)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/ce5f111f-1be4-4848-a87d-7b2570d153d4.svg?style=flat-square)](https://insight.sensiolabs.com/projects/ce5f111f-1be4-4848-a87d-7b2570d153d4)
 [![Quality Score](https://img.shields.io/scrutinizer/g/gonzalezfj/smsc.svg?style=flat-square)](https://scrutinizer-ci.com/g/gonzalezfj/smsc)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/gonzalezfj/smsc/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/gonzalezfj/smsc/?branch=master)
