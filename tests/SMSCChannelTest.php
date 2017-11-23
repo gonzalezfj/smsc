@@ -9,9 +9,9 @@ namespace NotificationChannels\SMSC\Test;
 
 use Mockery as M;
 use Illuminate\Notifications\Notification;
-use Illuminate\Contracts\Events\Dispatcher;
 use NotificationChannels\SMSC\SMSCChannel;
 use NotificationChannels\SMSC\SMSCMessage;
+use Illuminate\Contracts\Events\Dispatcher;
 use NotificationChannels\SMSC\SMSCMessageInterface;
 use NotificationChannels\SMSC\Clients\SMSCClientInterface;
 use NotificationChannels\SMSC\Clients\SMSCApiResponseInterface;

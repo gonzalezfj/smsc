@@ -67,7 +67,6 @@ class SMSCClientTest extends \PHPUnit_Framework_TestCase
         $this->setExpectedException(CouldNotBootClient::class);
 
         $this->clientWithNoEndpoint = new SMSCClient($this->httpClient, '', 'bar', 'baz');
-        
     }
 
     /** @test */
@@ -119,7 +118,7 @@ class SMSCClientTest extends \PHPUnit_Framework_TestCase
                          ->once()
                          ->andReturn($this->httpMessage);
 
-        $this->httpMessage->shouldReceive('getBody')->once()->andReturn("error foo-bar");
+        $this->httpMessage->shouldReceive('getBody')->once()->andReturn('error foo-bar');
 
         $this->httpMessage->shouldReceive('getStatusCode')
                           ->once()
@@ -146,7 +145,6 @@ class SMSCClientTest extends \PHPUnit_Framework_TestCase
         $this->httpMessage->shouldReceive('getReasonPhrase')
                           ->once()
                           ->andReturn('Service unavailable');
-                          
 
         $this->setExpectedException(CouldNotSendNotification::class);
 
@@ -154,5 +152,4 @@ class SMSCClientTest extends \PHPUnit_Framework_TestCase
         $response = $this->client->sendRequest();
         $this->assertNull($response->errorCode());
     }
-
 }

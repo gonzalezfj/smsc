@@ -53,7 +53,7 @@ final class SMSCHttpApiResponse implements SMSCApiResponseInterface
 
         return $this->responseAttributes['message'];
     }
-    
+
     /**
      * Determine if the api responded with a success or not.
      *
@@ -74,7 +74,6 @@ final class SMSCHttpApiResponse implements SMSCApiResponseInterface
     {
         $decoded = json_decode($responseBodyString, true);
 
-        
         if ($decoded == null) {
             throw CouldNotSendNotification::apiFailed('Invalid JSON');
         }

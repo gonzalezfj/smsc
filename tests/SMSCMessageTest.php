@@ -6,7 +6,6 @@
 
 namespace NotificationChannels\SMSC\Test;
 
-use Carbon\Carbon;
 use NotificationChannels\SMSC\SMSCMessage;
 use NotificationChannels\SMSC\SMSCMessageInterface;
 
