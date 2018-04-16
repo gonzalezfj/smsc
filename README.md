@@ -31,7 +31,7 @@ This package makes it easy to send notifications using [SMSC](https://www.smsc.c
 You can install this package via composer:
 
 ``` bash
-composer require laravel-notification-channels/smsc
+composer require gonzalezfj/smsc
 ```
 
 Next add the service provider to your `config/app.php`:
